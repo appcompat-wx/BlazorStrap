@@ -1,3 +1,0 @@
-﻿index.txt
-Progress1.razor.md
-Progress2.razor.md

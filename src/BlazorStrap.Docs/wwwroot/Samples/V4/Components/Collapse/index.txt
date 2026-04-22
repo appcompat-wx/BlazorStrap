@@ -1,5 +1,0 @@
-﻿Collapse1.razor.md
-Collapse2.razor.md
-Collapse3.razor.md
-Collapse4.razor.md
-index.txt

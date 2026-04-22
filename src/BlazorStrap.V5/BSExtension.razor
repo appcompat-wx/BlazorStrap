@@ -1,8 +1,0 @@
-<CascadingValue Value="Builder">
-     @ChildContent
-</CascadingValue>
-
-@code {
-     [Parameter] public RenderFragment? ChildContent { get; set; }
-     public readonly ILayoutClassBuilder Builder = new SharedLayoutClassBuilder();
-}

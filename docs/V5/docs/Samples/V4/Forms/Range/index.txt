@@ -1,5 +1,0 @@
-﻿index.txt
-Range1.razor.md
-Range2.razor.md
-Range3.razor.md
-Range4.razor.md
