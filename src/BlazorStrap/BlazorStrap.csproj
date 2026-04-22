@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsPackable>true</IsPackable>
+		<PackageId>BlazorStrap</PackageId>
+		<Authors>Chanan Braunstein; John Bomhold</Authors>
+		<Title>Blazor BootStrap</Title>
+		<Description>A bootstrap 5 component library for Blazor</Description>
+		<PackageTags>blazor;bootstrap;bootstrap5</PackageTags>
+		<PackageProjectUrl>https://blazorstrap.io/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/chanan/BlazorStrap</RepositoryUrl>
+		<RootNamespace>BlazorStrap</RootNamespace>
+		<PackageVersion>5.2.102-Preview1</PackageVersion>
+		<AnalysisLevel>6.0</AnalysisLevel><!--Next Use 5.2.200-Preview1-->
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Content Remove="bundleconfig.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="bundleconfig.json" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <None Include="..\..\.editorconfig" Link=".editorconfig" />
+	  <None Include="bundleconfig.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup Condition="  '$(TargetFramework)' == 'net6.0'  ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.*" />
+		<PackageReference Include="BlazorComponentUtilities" Version="1.7.1" />
+	</ItemGroup>
+	<ItemGroup Condition="  '$(TargetFramework)' == 'net7.0'  ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.*" />
+		<PackageReference Include="BlazorComponentUtilities" Version="1.7.1" />
+	</ItemGroup>
+	<ItemGroup Condition="  '$(TargetFramework)' == 'net8.0'  ">
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.*" />
+		<PackageReference Include="BlazorComponentUtilities" Version="1.7.1" />
+	</ItemGroup>
+</Project>
