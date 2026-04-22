@@ -1,3 +1,0 @@
-﻿index.txt
-Tooltips1.razor.md
-Tooltips2.razor.md

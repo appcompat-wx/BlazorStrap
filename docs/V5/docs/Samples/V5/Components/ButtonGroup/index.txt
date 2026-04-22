@@ -1,2 +1,0 @@
-﻿ButtonGroup1.razor.md
-index.txt

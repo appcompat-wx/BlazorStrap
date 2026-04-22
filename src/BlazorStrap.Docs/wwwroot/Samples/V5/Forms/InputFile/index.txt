@@ -1,2 +1,0 @@
-﻿index.txt
-InputFile1.razor.md

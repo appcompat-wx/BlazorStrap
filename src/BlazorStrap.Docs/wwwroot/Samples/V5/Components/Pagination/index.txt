@@ -1,3 +1,0 @@
-﻿index.txt
-Pagination1.razor.md
-Pagination2.razor.md

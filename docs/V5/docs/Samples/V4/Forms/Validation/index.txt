@@ -1,3 +1,0 @@
-﻿index.txt
-ValidationMain.razor.css.md
-ValidationMain.razor.md

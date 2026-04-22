@@ -1,8 +1,0 @@
-﻿index.txt
-OffCanvas1.razor.md
-OffCanvas2.razor.md
-OffCanvas3.razor.md
-OffCanvas4.razor.md
-OffCanvas5.razor.md
-OffCanvas6.razor.md
-OffCanvas7.razor.md
